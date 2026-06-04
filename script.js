@@ -2,10 +2,10 @@
 var products = [
     {
         id: 1,
-        name: '______',
-        desc: '______',
-        price: ______,
-        oldPrice: ______,
+        name: 'هدفون',
+        desc: 'حرفه ای',
+        price: 555555555,
+        oldPrice: 4444444,
         image: 'images/______.jpg',
         cat: '______',
         rating: 5,
