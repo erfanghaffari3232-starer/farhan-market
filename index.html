@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرهان مارکت | فروشگاه حرفه‌ای</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-banner">🔥 ______</div>
+
+    <header class="header" id="header"></header>
+
+    <section class="main-slider" id="mainSlider"></section>
+
+    <nav class="cat-nav" id="catNav"></nav>
+
+    <main class="main-content">
+        <aside class="filters" id="filters"></aside>
+        <section class="products-area">
+            <div class="products-header" id="productsHeader"></div>
+            <div class="products-grid" id="productsGrid"></div>
+        </section>
+    </main>
+
+    <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+    <aside class="cart-panel" id="cartPanel"></aside>
+
+    <div class="notification" id="notification"></div>
+
+    <button class="chat-btn" onclick="toggleChat()">💬</button>
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header">💬 ______ <button onclick="toggleChat()">✕</button></div>
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="______" onkeypress="if(event.key==='Enter') sendChat()">
+            <button onclick="sendChat()">📩</button>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+
+    <script src="script.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>
